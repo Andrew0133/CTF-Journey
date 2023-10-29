@@ -1,2 +1,3 @@
-# CTF-Journey
-Exploring my CTF journey and strategies. Not for sharing solutions, just for showcasing my approach. Open to feedback and suggestions!
+# Welcome to my CTF Journey repository! 🚩
+
+This collection is dedicated to sharing my insights and alternative approaches and thought processes when tackling CTF challenges from different platforms. I'm not here to provide the ultimate solution; instead, I aim to offer insights into my problem-solving strategies and techniques. Feel free to explore, provide feedback, and share your suggestions to collectively enhance our CTF skills!
