@@ -30,8 +30,6 @@ Since the question mentioned a 'user avatar,' I searched for the value of the pr
 
 As we can see from the image, by examining the avatar, we obtain the information we need.
 
-The answer is: ```cat```
-
 ### Question 2 - *What city is this person in?*
 
 #### Hint: BSSID + Wigle.net
@@ -50,8 +48,6 @@ I filtered the results using the BSSID we found and obtained a circle indicating
 
 ![Alt text](./imgs/wigle-dot-net-search.png?raw=true "wigle.net bssid search")
 
-The answer is: ```London```
-
 ### Question 3 - *What is the SSID of the WAP he connected to?*
 
 For this question, the result is in the search we conducted in the previous question. However, to access this information, we need to register on the site. Once registered, the information can be viewed by clicking on the marker on the map.
@@ -59,8 +55,6 @@ For this question, the result is in the search we conducted in the previous ques
 ![Alt text](./imgs/wigle-advanced-search.png?raw=true "wigle.net advanced search")
 
 As we can see from the image, by examining the popup, we obtain the information we need.
-
-The answer is: ```UnileverWiFi```.
 
 ### Question 4 - *What is his personal email address?*
 
@@ -76,13 +70,9 @@ Within the repository, in the ```README.md``` file we can see the email that we 
 
 ![Alt text](./imgs/people-finder-repository.png?raw=true "people finder repository")
 
-The answer is: ```OWoodflint@gmail.com```
-
 ### Question 5 - *What site did you find his email address on?*
 
 We got the answer from the previous question!
-
-The answer is: ```GitHub```
 
 ### Question 6 - *Where has he gone on holiday?*
 
@@ -100,9 +90,7 @@ The second one caught my interest because it mentioned a "journey", so it could 
 
 ![Alt text](./imgs/blog-post.png?raw=true "waybback machine matching urls")
 
-In the blog post, I discovered a mention of New York, so this could be the answer we are looking for!
-
-The answer is: ```New York```
+In the blog post, I discovered a mention of a city, so this could be the answer we are looking for!
 
 ### Question 7 - *What is the person's password?*
 
@@ -125,5 +113,3 @@ I then took it a step further and pressed ```F12``` to inspect that element on t
 ![Alt text](./imgs/blog-post-secret-analyze.png?raw=true "waybback machine matching urls")
 
 From the source code we can see that the color text is #ffffff (white), explaining why it wasn't visible. This must to be the "password"!
-
-The answer is: ```pennYDr0pper.!```
