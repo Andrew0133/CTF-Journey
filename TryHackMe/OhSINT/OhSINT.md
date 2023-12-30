@@ -1,10 +1,24 @@
 # OhSINT
 
-TryHackMe room: [Here](https://tryhackme.com/room/ohsint)
+## Room Info
+
+Room: [Here](https://tryhackme.com/room/ohsint)
 
 Difficulty: **Easy**
 
-## Question 1 - *What is this user's avatar of?*
+## Description
+
+Are you able to use open source intelligence to solve this challenge?
+
+## Task 1 - OhSINT
+
+### Context
+
+What information can you possible get with just one photo?
+
+### Question 1 - *What is this user's avatar of?*
+
+#### Hint: exiftool is your friend. Who is the author of the image? Do they have any social media accounts?
 
 The first thing I did was use **ExifTool** to read metadata in the image. I discovered something interesting: the '**Copyright**' property, as shown in the image below:
 
@@ -18,7 +32,9 @@ As we can see from the image, by examining the avatar, we obtain the information
 
 The answer is: ```cat```
 
-## Question 2 - *What city is this person in?*
+### Question 2 - *What city is this person in?*
+
+#### Hint: BSSID + Wigle.net
 
 For this question, I continued to explore posts on the Twitter profile and came across an interesting one:
 
@@ -36,7 +52,7 @@ I filtered the results using the BSSID we found and obtained a circle indicating
 
 The answer is: ```London```
 
-## Question 3 - *What is the SSID of the WAP he connected to?*
+### Question 3 - *What is the SSID of the WAP he connected to?*
 
 For this question, the result is in the search we conducted in the previous question. However, to access this information, we need to register on the site. Once registered, the information can be viewed by clicking on the marker on the map.
 
@@ -46,7 +62,7 @@ As we can see from the image, by examining the popup, we obtain the information 
 
 The answer is: ```UnileverWiFi```.
 
-## Question 4 - *What is his personal email address?*
+### Question 4 - *What is his personal email address?*
 
 For this question, I searched on Twitter to check if the email was provided, but unfortunately, it was not. So, I conducted a Google search using the Twitter username to see if the person might have other social media accounts or a blog where we could find the information.
 
@@ -62,13 +78,13 @@ Within the repository, in the ```README.md``` file we can see the email that we 
 
 The answer is: ```OWoodflint@gmail.com```
 
-## Question 5 - *What site did you find his email address on?*
+### Question 5 - *What site did you find his email address on?*
 
 We got the answer from the previous question!
 
 The answer is: ```GitHub```
 
-## Question 6 - *Where has he gone on holiday?*
+### Question 6 - *Where has he gone on holiday?*
 
 For this question I searched on google and I found something interesting:
 
@@ -88,7 +104,9 @@ In the blog post, I discovered a mention of New York, so this could be the answe
 
 The answer is: ```New York```
 
-## Question 7 - *What is the person's password?*
+### Question 7 - *What is the person's password?*
+
+#### Hint: Check the Source code
 
 For this question, based on the previous Google search, I noticed the following under the description of the blog post about the journey:
 
